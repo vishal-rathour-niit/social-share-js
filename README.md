@@ -9,7 +9,7 @@
 ## JS 
 
 ```
-<script src="/lib/share-lib.js"></script>
+<script src="share-lib.js"></script>
 ```
 
 ## JS Code
