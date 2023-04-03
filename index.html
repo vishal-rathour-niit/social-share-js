@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>demo 1</title>
+    </head>
+    <body >
+
+        
+
+    <script src="share-lib.js"></script>
+
+    <script>
+        var options = {
+            root:null,   // default: document , or add id or class (#share-options)
+            position:'top-right', // top-right , top-left, bottom-right, bottom-left, center-left , center-right
+            windowWidth:'window' , //  window or px (553)
+            margin:16,  // top,left,right,bottom margin
+            svgPadding:'4px',  // set svg padding if need svg in background color
+            svgForgroundColor:'#fff',  // defalt #000,
+            svgBackgroundColor:'#0760dd',  // default color is transparent
+            svgWidth:50, // default is 50px
+            border:'3px solid #000',  // defaut is none
+            borderRadius:'100%'  // default is none 
+        }
+         
+        new shareLib(options).render();
+
+
+    </script>
+    </body>
+</html>
