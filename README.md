@@ -1,4 +1,4 @@
-# social-share-js
+# social share js
 
 ## HTML
 
