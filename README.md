@@ -39,7 +39,7 @@ new shareLib(options).render();
 
 ```
 root   default is document.body if you want to share element wrape into custom element. pass element
-root:document.querySelector('#share-options')
+root:'#share-options'
 
 position:'top-right' default is top-right or you can set: top-right , top-left, bottom-right, bottom-left, center-left , center-right
 
